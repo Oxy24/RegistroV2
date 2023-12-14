@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:RegistroV2.View="clr-namespace:RegistroV2.View"
+                    xmlns:RegistroV2.ViewModel="clr-namespace:RegistroV2.ViewModel">
+
+    <DataTemplate DataType="{x:Type RegistroV2.ViewModel:Scelta1ViewModel}">
+        <RegistroV2.View:Scelta1View/>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type RegistroV2.ViewModel:Scelta2ViewModel}">
+        <RegistroV2.View:Scelta2View/>
+    </DataTemplate>
+    
+</ResourceDictionary>
